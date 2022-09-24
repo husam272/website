@@ -215,7 +215,7 @@
 .title2{
     margin-top: 10px;
     color: white;
-    width: 120%;
+    width: 100%;
     background-color: black;
     border: 2px solid grey;
     border-radius: 10px;
@@ -246,7 +246,61 @@
     background-color: white;
     color: black;
 }
-@media  screen and(max-width:500px){
+@media (max-width:500px){
+    .img2{
+        width: 100%;
+    }
+    .para1{
+        width: 100%;
+        
+     }
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+        flex-direction: column;
+      }
+}
+@media (max-width:600px){
+    .img2{
+        width: 100%;
+    }
+    .para1{
+        width: 100%;
+        
+     }
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+        flex-direction: column;
+      }
+}
+@media (max-width:400px){
+    .img2{
+        width: 100%;
+    }
+    .para1{
+        width: 100%;
+        
+     }
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+      flex-direction: column;
+    }
+}
+@media (max-width:700px){
     .container3{
         width: 100%;
     }
@@ -254,19 +308,30 @@
         width: 100%;
     }
 }
-@media  screen and(max-width:600px){
+@media (max-width:800px){
     .container3{
         width: 100%;
     }
     .section1{
         width: 100%;
+    }
+   
+}
+@media (max-width:900px){
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    
     }
 }
-@media  screen and(max-width:400px){
+@media (max-width:1000px){
     .container3{
         width: 100%;
     }
     .section1{
         width: 100%;
+    
     }
 }
