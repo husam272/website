@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+}
 .container1{
     background-color: black;
     width: 100%;
@@ -197,13 +200,14 @@
     padding: 0px 10px 10px 10px;
 }
 .container3{
+    width: 100%;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .section5{
- padding-left: 10%;
+ padding-left: 5%;
  padding-top: 10px;
 
 
@@ -237,4 +241,16 @@
 .section5 ul li a{
     color: white;
     text-decoration: none;
+}
+.title2:hover{
+    background-color: white;
+    color: black;
+}
+@media  screen and(max-width:400px){
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
 }
