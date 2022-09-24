@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+.img1 img{
+    width: 100px;
+    height: 70px;
+}
+.nav{
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+  .option{
+    
+    text-align: end;
+    padding-top: 10px;
+    
+ } 
+.option a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-right: 12px;;
+    font-size: large;
+    /* border-width: 20px; */
+   
+}
+.option a:hover{
+    background-color: white;
+    border-radius: 20px 20px;
+    color: black;
+}
+.border{
+    border: 4px solid #18e418;
+    border-radius: 20px 20px;
+    padding: 10px 7px 7px 10px ;
+
+}
+/* .container .container1{
+    width: 100%;
+    height: 11vh;
+    background-color: black;
+}
+.container .nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img1 img{
+    width: 100px;
+    height: 72px;
+   
+}
+.menu{
+    width: 70%;
+    text-align: end;
+   padding-top:35px;  
+}
+.border {
+    display: flex;
+   
+    flex-wrap: nowrap;
+    display: inline;
+    border: 4px solid green;
+    padding: 12px 10px 10px 12px;
+    border-radius: 20px;
+ 
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+    padding-right: 10px;
+
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+} */
+.line{
+    border: 2px solid green;
+}
+.section1{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 50%;
+    padding-left: 15%;
+}
+.img2 img{
+    width: 85%;
+    height: 40vh;
+    border: 8px solid #F9F9F9;
+}
+.para1{
+   width: 40%;
+   font-size: x-large;
+}
+.para1 p{
+    padding-top: 10px;
+}
+.button{
+    padding-top: 20px;
+}
+.button a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+    font-size: medium;
+    padding: 10px 10px 10px 10px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3{
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 15%;
+}
+.para2{
+   padding-bottom: 40px;
+}
+.para3 h4{
+    padding-bottom: 20px;
+}
+.para3 li{
+    padding-top: 20px;
+}
+.para3 .list{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.para3 .list2{
+  padding-top: 40px;
+}
+.line1{
+    width: 17%;
+    border: 2px solid green;
+}
+.line2{
+    width: 90%;
+    border: 1px solid grey;
+}
+.line3{
+    padding-left: 20px;
+    border-left: 4px solid green;
+}
+.section4{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 40%;
+}
+.para4{
+    background-color: grey;
+}
+.content1{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid lightslategrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img3 img{
+    width: 80%;
+    height: 13vh;
+}
+.card1{
+ width: 63%;
+}
+.border1{
+    margin-top: 10px;
+    border: 1px solid lightslategrey;
+    padding: 0px 10px 10px 10px;
+}
+.container3{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section5{
+ padding-left: 10%;
+ padding-top: 10px;
+
+
+}
+.title2{
+    margin-top: 10px;
+    color: white;
+    width: 120%;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+  
+}
+.section5 ul{
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.section5 ul li{
+    padding-top: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.section5 ul li a{
+    color: white;
+    text-decoration: none;
+}
