@@ -246,6 +246,22 @@
     background-color: white;
     color: black;
 }
+@media  screen and(max-width:500px){
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+}
+@media  screen and(max-width:600px){
+    .container3{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+}
 @media  screen and(max-width:400px){
     .container3{
         width: 100%;
