@@ -234,6 +234,11 @@
     .section2{
         flex-direction: column;
       }
+      .button{    
+        padding-top: 20px;
+        margin-left: 40%;
+    }
+
 }
 @media (max-width:400px){
     .img2{
@@ -264,6 +269,21 @@
     .container2{
         width: 100%;
         flex-direction: column;
+    }
+    .section3{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .section4{
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .button{    
+        padding-top: 20px;
+        margin-left: 30%;
     }
 
 }
@@ -297,6 +317,22 @@
         width: 100%;
         flex-direction: column;
     }
+    .section3{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .section4{
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .button{    
+        padding-top: 20px;
+        margin-left: 30%;
+    }
+
 }
 @media (max-width:700px){
     .container3{
