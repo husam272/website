@@ -49,8 +49,12 @@
     padding: 10px 7px 7px 10px ;
 }
 .line{
-    border: 2px solid green;
+   border-bottom: 4px solid green;
 }
+.lines{
+    border-top: 4px solid green;
+    
+ }
 .section1{
     background-color: grey;
     padding-top: 20px;
@@ -115,11 +119,14 @@
 }
 .line1{
     width: 17%;
-    border: 2px solid green;
+   
+    border-bottom: 2px solid green;
+    
 }
 .line2{
-    width: 90%;
-    border: 1px solid grey;
+     width: 90%;
+    border-bottom: 1px solid grey;
+ 
 }
 .line3{
     padding-left: 20px;
